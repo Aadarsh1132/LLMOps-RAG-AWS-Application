@@ -47,4 +47,5 @@ def update_vectordb():
         return jsonify({'status': 'error', 'message': str(e)})
 
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8501))
     app.run(debug=True)
