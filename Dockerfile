@@ -4,4 +4,4 @@ COPY . /app/
 RUN pip install -r requirements.txt
 EXPOSE 8501
 
-CMD ["flask","run","app.py"]
+CMD ["flask","run","--host=0.0.0.0", "--port=8501"]
