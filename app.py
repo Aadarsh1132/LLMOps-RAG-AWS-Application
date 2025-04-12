@@ -48,4 +48,4 @@ def update_vectordb():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8501))
-    app.run(debug=True)
+    app.run(debug=True,port=port)
