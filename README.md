@@ -28,6 +28,8 @@ A **Retrieval-Augmented Generation (RAG)** powered Question Answering system, bu
 | AWS App Runner     | Cloud deployment service       |
 
 ---
+Sample Image: ![Example Image](Screenshot 2025-04-12 150151.png)
+---
 
 ## 📁 Project Structure
 
