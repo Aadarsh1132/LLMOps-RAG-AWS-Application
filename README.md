@@ -31,14 +31,26 @@ A **Retrieval-Augmented Generation (RAG)** powered Question Answering system, bu
 
 ## 📁 Project Structure
 
-LLMOps-RAG-AWS-Application/ 
-├── app.py # Flask entrypoint 
-├── requirements.txt # Python dependencies 
-├── Dockerfile # Container instructions 
-├── .dockerignore # Docker exclusions 
-├── .gitignore # Git exclusions 
-├── .github/ │ └── workflows/ │ └── main.yaml # CI/CD pipeline config 
-├── QASystem/ │ ├── init.py │ ├── ingestion.py │ └── retrievalandgeneration.py
+LLMOps-RAG-AWS-Application/
+├── app.py                         # Flask app entry point
+├── requirements.txt               # Python dependencies
+├── Dockerfile                     # Docker build instructions
+├── .dockerignore                  # Docker ignore rules
+├── .gitignore                     # Git ignore rules
+├── README.md                      # Project documentation
+├── setup.py                       # (Optional) For packaging if needed
+│
+├── QASystem/
+│   ├── __init__.py                # Makes QASystem a package
+│   ├── ingestion.py               # Data ingestion logic
+│   └── retrievalandgeneration.py # RAG pipeline (retrieval + generation)
+│
+├── venv/                          # Virtual environment (ignored)
+│
+└── .github/
+    └── workflows/
+        └── main.yaml              # GitHub Actions CI/CD pipeline
+
 
 
 
