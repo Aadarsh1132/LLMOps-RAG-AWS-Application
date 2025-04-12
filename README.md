@@ -28,34 +28,8 @@ A **Retrieval-Augmented Generation (RAG)** powered Question Answering system, bu
 | AWS App Runner     | Cloud deployment service       |
 
 ---
-UI Image: 
-![UI Image](./Screenshot 2025-04-12 150151.png)
----
-
-## 📁 Project Structure
-
-LLMOps-RAG-AWS-Application/
-├── app.py                         # Flask app entry point
-├── requirements.txt               # Python dependencies
-├── Dockerfile                     # Docker build instructions
-├── .dockerignore                  # Docker ignore rules
-├── .gitignore                     # Git ignore rules
-├── README.md                      # Project documentation
-├── setup.py                       # (Optional) For packaging if needed
-│
-├── QASystem/
-│   ├── __init__.py                # Makes QASystem a package
-│   ├── ingestion.py               # Data ingestion logic
-│   └── retrievalandgeneration.py # RAG pipeline (retrieval + generation)
-│
-├── venv/                          # Virtual environment (ignored)
-│
-└── .github/
-    └── workflows/
-        └── main.yaml              # GitHub Actions CI/CD pipeline
-
-
-
+## UI Image: 
+![Image](https://github.com/user-attachments/assets/8212cd16-2d00-4714-bf79-b6cf84078db6)---
 
 ---
 
